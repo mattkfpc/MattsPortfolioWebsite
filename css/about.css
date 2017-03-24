@@ -8,8 +8,12 @@ body{
 }
 
 .imagesize{
-  width: 150px;
-  height: 150px;
+  width: 400px;
+  height: 400px;
+}
+
+.caption{
+  text-align: center;
 }
 
 #myintro{
