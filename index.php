@@ -88,10 +88,10 @@ if($_POST["submit"]) {
 
 		<header>
 			<div class="intro-text">
-				<h1>Matthew Paek</h1>
-				<p>I'm a web developer in training. I'm learning by <strong>doing</strong> projects and currently using <a href="http://www.freecodecamp.com">a free coding online resource</a> to help me.</p>
+				<h1>Hi, I'm Matthew.</h1>
+				<p>Lifelong Learner, Fitness Freak, and Adventurer
 				<hr class="star-bright"/>
-			</div><img src="http://i.imgur.com/St8t0GN.jpg?1" alt="profile pic"/>
+			</div><img src="http://imgur.com/a/ogWFM" alt="profile pic"/>
 		</header>
 
 <!--Gallery grid section-->
