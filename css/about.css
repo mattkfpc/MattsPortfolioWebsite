@@ -8,8 +8,8 @@ body{
 }
 
 .imagesize{
-  width: 400px;
-  height: 400px;
+  max-width: 95%;
+  height: 600x;
 }
 
 .caption{
