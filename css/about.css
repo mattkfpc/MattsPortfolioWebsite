@@ -7,6 +7,11 @@ body{
   font-size:20px;
 }
 
+.imagesize{
+  width: 150px;
+  height: 150px;
+}
+
 #myintro{
   font-family: Raleway;
   font-size: 14px;

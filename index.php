@@ -90,7 +90,7 @@ if($_POST["submit"]) {
 			<div class="intro-text">
 				<h1>Hi, I'm Matthew.</h1>
 				<p>Lifelong Learner, Fitness Freak, and Adventurer</p></ br>
-        <p>Click on my About page to learn more about me.</p>
+        <p>Click on my <a href="http://matthewpaek.com/about.html">About</a> page to learn more about me.</p>
 				<hr class="star-bright"/>
 			</div><img src="http://i.imgur.com/sAtHbae.jpg" alt="profile pic"/>
 		</header>
