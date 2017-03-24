@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<!--Note: that xmlns provides a method to avoid element name conflicts.-->
+<head>
+	<title>Matt Paek</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0"/>
+	<!--A <meta>viewport element gives the browser instructions on how to control the page's dimensions and scaling.-->
+	<meta charset="utf-8"/>
+	<!--Writing down utf-8 refers to the type of encoding (Storage in the comp)-->
+		<link rel="shortcut icon" href="image/micon2.png" type="image/x-icon"/>
+		<!--the link rel below gives me the little icon on the top of the browser-->
+	<meta name="robots" content="index, follow"/>
+	<!-- robots are used for search engines. Google and ect. will search through all my webpages if i put this in.-->
+  	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  	<meta http-equiv="content-language" content="en" />
+	<!-- I actually have no iea why i'm using http-equiv. It seems pointless to add content language and content type
+	because I already specified my character set earlier and default should be English?-->
+  	<meta name="keywords" content="Matthew Paek, Matthew, Paek, resume, portfolio"/>
+  	<meta name="description" content="Matthew's portfolio"/>
+  	<meta name="author" content="Matthew Paek"/>
+
+		<!--Bootstrap-->
+		<link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" type="text/css" rel="stylesheet"/>
+
+		<!--Links to Jquery scripts, from w3schools, these are default boostrap files-->
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+ 		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+		<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+		<script type="text/javascript" src="js/homepage.js"></script>
+
+			<!--CSS-->
+		<link type="text/css" rel="stylesheet" href="css/about.css"/>
+  	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"/>
+
+		<!--Font icons-->
+		<script src="https://use.fontawesome.com/a34e19ae1a.js"></script>
+		<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Montserrat">
+		<link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+
+
+</head>
+<body>
+
+	<header id="banner" class="navbar navbar-default navbar-fixed-top">
+		<div class="container">
+			<a href="/index.php" class="scrollable"><img src="https://s-media-cache-ak0.pinimg.com/236x/17/3e/4a/173e4ac918977f8f603a714349d85128.jpg" height="50px" width="75px" alt= "M logo | Web Development" title="M Web Development"/></a>
+			<button type="button" data-toggle="collapse" data-target="#navbar" aria-expanded="false" class="navbar-toggle collapsed">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<nav id="navbar" role="navigation" class="collapse navbar-collapse">
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="/index.php" class="scrollable">Main Page</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+
+	<a id="top" name="home"></a>
+<!-- This gives some padding-->
+
+	<main>
+
+<!--Header section-->
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-6" id="myintropicture">
+					<img src="http://i.imgur.com/St8t0GN.jpg?1" alt="profile pic"/>
+				</div>
+				<div class="col-sm-6" id="myintro">
+						<h1>Hello, I'm Matt</h1>
+						<p>I'm a web developer in training trying to hone my skills as a coder in order to become a full stack web developer.</p>
+						<p>I wasn't always trying to get into the code. I dabbled in experiments and handled volatile chemicals throughout my college career while trying to prepare for pharmacy school. Hours and hours of unhappy studying and abstract concepts didn’t mesh with me too well.</p>
+						<p>After I taught students as an English teacher for a couple of years in South Korea, I knew I wanted to do something, but I couldn’t grasp what I wanted until I stumbled upon<a href="http://www.freecodecamp.com"> a code camp</a> I found online. Without much thought, I dove into HTML and CSS until I realized I could do this for hours and get sucked up and absorbed into my work. I eventually created side projects and worked on them continuously. I found myself thinking about potential projects and the languages that I had to learn to complete them. The abstract became concrete. I could finally call something my own.</p>
+		  			<p>While I’m not coding, I try to stick to my daily weight lifting schedule and read as many books as possible. I also enjoy jogging, cycling, and making my weekly meals.</p>
+				</div>
+			</div>
+		</div>
+
+
+		<!-- Scroll to Top Button (Only supposed to be visible on small and small screen sizes)-->
+		<div class="scroll-top"><a href="#top" class="button scrollable"><i class="fa fa-chevro-up"></i></a></div>
+	</main>
+	<!--Footer-->
+	<footer>
+	  <div id="footer-above">
+	    <div>
+	      <h3>About this page</h3>
+	      <p>Made by Matthew Paek using HTML, CSS, Javascript, and a little bit of magic.</p>
+	    </div>
+	    <div>
+	      <h3>Around the Web</h3>
+	      <ul>
+	        <li><a href="https://kr.linkedin.com/in/matthew-paek-16276050 target="_blank"" class="button social"><i class="fa fa-fw fa-linkedin"></i></a></li>
+	        <li><a href="https://github.com/mattkfpc target="_blank"" class="button social"><i class="fa fa-fw fa-github"></i></a></li>
+	        <li><a href="https://www.facebook.com/profile.php?id=711590318 target="_blank"" class="button social"><i class="fa fa-fw fa-facebook"></i></a></li>
+	      </ul>
+	    </div>
+	  </div>
+	  <div id="footer-below">Copyright 2015 -
+	    <script>document.write(new Date().getFullYear())</script>
+	  </div>
+	</footer>
+
+
+</body>
+</html>
