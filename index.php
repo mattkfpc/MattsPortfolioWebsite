@@ -102,7 +102,7 @@ if($_POST["submit"]) {
 			<hr class="star-dark"/>
 			<ul class="grid">
 				<li><a href="/Website1" target="_blank"><img src="http://i.imgur.com/ShG8vFM.png" alt="First Website Portfolio"/></a><p>My First Website</p></li>
-
+        <li><a href="www.nfdrapery.com" target="_blank"><img src="http://i.imgur.com/LLCh5nc.png" alt="NFDrapery Website"/></a><p>NFDrapery Portfolio (client)</p></li>
 			</ul>
 		</section>
 
