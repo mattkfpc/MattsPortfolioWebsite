@@ -19,11 +19,12 @@ body{
 #myintro{
   font-family: Raleway;
   font-size: 14px;
+  text-align:center;
+  margin:auto;
 }
 
-#myintropicture{
-  padding-left: 50px;
-  padding-top: 50px;
+#smallerpic{
+  max-width:60%
 }
 
 h2,h3{

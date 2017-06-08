@@ -101,8 +101,16 @@ if($_POST["submit"]) {
 			<h2>Portfolio</h2>
 			<hr class="star-dark"/>
 			<ul class="grid">
+
+        <!--project-->
 				<li><a href="/Website1" target="_blank"><img src="http://i.imgur.com/ShG8vFM.png" alt="First Website Portfolio"/></a><p>My First Website</p></li>
+
+        <!--project-->
+				<li><a href="/musclegame.html" target="_blank"><img src="http://i.imgur.com/kcXUl63.png" alt="Muscle Game Wireframe"/></a><p>My First Website</p></li>
+
+        <!--project-->
         <li><a href="http://www.nfdrapery.com" target="_blank"><img src="http://i.imgur.com/cnLo101.png" alt="NFDrapery Website"/></a><p>NFDrapery Portfolio (client)</p></li>
+
 			</ul>
 		</section>
 
@@ -132,7 +140,7 @@ if($_POST["submit"]) {
 		<input type="submit" name="submit">
         </form>
 				<div>
-					<p>Want to get in touch? Send me an email!</p>
+					<p>Want to get in touch or view my resume? Send me a message!</p>
 				</div>
 			</div>
 		</section>
@@ -144,7 +152,7 @@ if($_POST["submit"]) {
 	  <div id="footer-above">
 	    <div>
 	      <h3>About this page</h3>
-	      <p>Made by Matthew Paek using HTML, CSS, Javascript, and a little bit of magic.</p>
+	      <p>Made by Matthew Paek to showcase some web dev magic.</p>
 	    </div>
 	    <div>
 	      <h3>Around the Web</h3>
