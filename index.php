@@ -114,6 +114,9 @@ if($_POST["submit"]) {
         <!--project-->
         <li><a href="http://www.nfdrapery.com" target="_blank"><img src="http://i.imgur.com/cnLo101.png" alt="NFDrapery Website"/></a><p>NFDrapery Portfolio (client)</p></li>
 
+        <!--project-->
+        <li><a href="/brooklynportfolio.html"><img src="http://i.imgur.com/OmYa0qC.png" alt="Brooklyn Portfolio Wireframe"/></a><p>Brooklyn Portfolio Wireframe</p></li>
+
 			</ul>
 		</section>
 
