@@ -103,13 +103,10 @@ if($_POST["submit"]) {
 			<ul class="grid">
 
         <!--project-->
-				<li><a href="/Website1" target="_blank"><img src="http://i.imgur.com/ShG8vFM.png" alt="First Website Portfolio"/></a><p>My First Website</p></li>
-
-        <!--project-->
 				<li><a href="/musclegame.html"><img src="http://i.imgur.com/kcXUl63.png" alt="Muscle Game Wireframe"/></a><p>Muscle Game Wireframe</p></li>
 
         <!--project-->
-				<li><a href="/paekfamily.html"><img src="http://i.imgur.com/Ue2s8O6.png" alt="Family Website Wireframe"/></a><p>Family Website Wireframe</p></li>
+				<li><a href="/paekfamily.html"><img src="http://i.imgur.com/FDE61lB.png" alt="Family Website Wireframe"/></a><p>Family Website Wireframe</p></li>
 
         <!--project-->
         <li><a href="http://www.nfdrapery.com" target="_blank"><img src="http://i.imgur.com/cnLo101.png" alt="NFDrapery Website"/></a><p>NFDrapery Portfolio (client)</p></li>
