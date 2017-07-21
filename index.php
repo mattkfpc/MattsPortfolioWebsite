@@ -53,7 +53,7 @@ if($_POST["submit"]) {
 		<!--Font icons-->
 		<script src="https://use.fontawesome.com/a34e19ae1a.js"></script>
 		<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Montserrat">
-    <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville" rel="stylesheet">
+
 
 
 </head>
@@ -74,7 +74,8 @@ if($_POST["submit"]) {
 					<li><a href="#top" class="scrollable">Intro</a></li>
 					<li><a href="#portfolio" class="scrollable">Portfolio</a></li>
 					<li><a href="#contact" class="scrollable">Contact</a></li>
-                                        <li><a href="/about.html" id="aboutbutton" class="scrollable">About</a></li>
+          <li><a href="/about.html" class="scrollable">About</a></li>
+          <li><a href="/study.html" class="scrollable">Study</a></li>
 				</ul>
 			</nav>
 		</div>
