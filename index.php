@@ -53,6 +53,7 @@ if($_POST["submit"]) {
 		<!--Font icons-->
 		<script src="https://use.fontawesome.com/a34e19ae1a.js"></script>
 		<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Montserrat">
+    <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville" rel="stylesheet">
 
 
 </head>
